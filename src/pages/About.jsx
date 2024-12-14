@@ -1,5 +1,6 @@
 import { getDownloadURL, ref } from "firebase/storage";
 import React, { useEffect, useState } from "react";
+import { storage } from "../service/firebase";
 
 const About = () => {
   const [imageURL, setImageURL] = useState("");
