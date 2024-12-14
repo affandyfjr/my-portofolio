@@ -7,7 +7,7 @@ const About = () => {
 
   useEffect(() => {
     const fetchImageURL = async () => {
-      const imageRef = ref(storage, "skill/tercinta.webp");
+      const imageRef = ref(storage, "skills/tercinta.webp");
       const url = await getDownloadURL(imageRef);
       console.log("image URL:", url);
       setImageURL(url);
