@@ -6,7 +6,7 @@ const About = () => {
       <h2 className="text-3xl font-bold text-center mb-6">About Me</h2>
       <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
         <img
-          src="src/assets/tercinta.webp"
+          src="public/assets/tercinta.webp"
           alt="ciluk baa"
           className="w-96 h-96 rounded-full shadow-2xl shadow-black dark:shadow-white "
         />

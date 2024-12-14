@@ -80,7 +80,7 @@ const Contact = () => {
     
       {/* Form Kirim Pesan */}
       <div className="flex flex-col md:flex-row">
-        <span className="mr-5 bg-cover rounded-lg bg-[url('src/assets/WIN_20241204_09_39_58_Pro.webp')] w-[50%] h-80"></span>
+        <span className="mr-5 bg-cover rounded-lg bg-[url('public/assets/WIN_20241204_09_39_58_Pro.webp')] w-[50%] h-80"></span>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             type="text"
