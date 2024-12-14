@@ -15,7 +15,7 @@
     opacity: 1;
     transform: scale(0.8);
     transition: transform 1.5s ease, opacity 1.5s ease;
-    filter: blur(10px);
+    /* filter: blur(10px); */
     z-index: -5;
   }
   
